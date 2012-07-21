@@ -10,7 +10,10 @@
     <form id="form1" runat="server">
     <div>
         <h1>Login</h1>
-        Login Page Goes Here
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox2"
+            runat="server"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" Text="Login" />
     </div>
     </form>
 </body>
